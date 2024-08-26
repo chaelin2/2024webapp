@@ -35,7 +35,38 @@
         .visual{
             background-color: green;
             height: 400px;
+            margin-bottom: 1em;
         }
+        .section{
+            width: 1360px;
+            margin: 0 auto;
+            margin-bottom: 1em;
+        }
+        .section .secLeft{
+            float: left; width: 1000px;
+            background-color: skyblue;
+        }
+        .section .secRight{
+            float: right;
+            width: 300px;
+            background-color: pink;
+        }
+        .section div{height: 700px;}
+
+        .ft{
+            background-color: greenyellow;
+            padding: 20px 0;
+        }
+        .ft div{
+            width: 1060px;
+            margin: 0 auto;
+            background-color: orange;
+            text-align: center;
+            padding: 10px 0;
+            
+
+        }
+        
     </style>
 </head>
 <body>
@@ -48,8 +79,16 @@
             <li><a href="#">menu5</a></li>
         </ul>
     </header>
-    <div class="visual"></div>
-
+    <div class="visual">slide</div>
+    <section class="section clear">
+        <div class="secLeft">left</div>
+        <div class="secRight">right</div>
+    </section>
+    <div class="ft">
+        <div> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, modi.
+        </div>
+    </div>
     
 </body>
 </html>
