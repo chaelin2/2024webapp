@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        a:link, a:visited{text-decoration: none;color:black;}
+        ul,li{
+            list-style: none;
+        }
+        .clear:after{
+            content: "";
+            display: block;
+            clear:both;
+        }
+        .hd{
+            background-color: black;
+        }
+        .menu{
+            width: 1360px;
+            margin: 0 auto;
+            background-color: skyblue;
+        }
+        .menu:after{
+            content: "";
+            display: block;
+            clear: both;
+            
+        }
+        .menu>li{
+            width: 20%;
+            float: left;
+        }
+        .menu>li>a{
+            height: 60px;
+            display: block;
+            text-align: center;
+            width: 100%;
+        }
+        .menu a:hover{
+            background-color: green;
+            color: azure;
+        }
+        .visual{
+            height: 69px;
+            background-color: aquamarine;
+
+        }
+        .section{
+            width: 1360px;
+            background-color: pink;
+            margin: 0 auto;
+            margin-bottom: 1em;
+        }
+        .section .left{
+        
+            float: left;
+            background-color: royalblue;
+            width: 1000px;
+            /* height: 500px; */
+
+        }
+        .section .right{
+            float: right;
+            background-color: darkblue;
+            width: 300px;
+            /* height: 500px; */
+        }
+        .section div{
+            height: 700px;
+        }
+        .ft{
+            background-color: yellowgreen;
+            padding: 20px 0;
+
+        }
+        .ft div{
+            background-color: orange;
+            width: 1060px;
+            padding: 10px 0;
+            text-align: center;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header class="hd">
+        <ul class="menu clear">
+            <li><a href="#">menu1</a></li>
+            <li><a href="#">menu1</a></li>
+            <li><a href="#">menu1</a></li>
+            <li><a href="#">menu1</a></li>
+            <li><a href="#">menu1</a></li>
+        </ul>
+    </header>
+    <div class="visual">visual</div>
+    <section class="section clear">
+        <div class="left">left</div>
+        <div class="right">right</div>
+    </section>
+
+    <div class="ft">
+        <div>
+            dicta temporibus id! Eius?
+        </div>
+    </div>
+</body>
+</html>

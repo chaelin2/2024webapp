@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.17/jquery.bxslider.css" integrity="sha512-rV4fiystTwIvs71MLqeLbKbzosmgDS7VU5Xqk1IwFitAM+Aa9x/8Xil4CW+9DjOvVle2iqg4Ncagsbgu2MWxKQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+        .visual .item{
+            height: 100vh;
+            background-color: skyblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        .visual .item.st1{
+            background-image: url(./images/n1.jpg);
+        }
+        .visual .item.st2{
+            background-image: url(./images/n2.jpeg);
+        }
+        .visual .item.st3{
+            background-image: url(./images/n3.jpg);
+        }
+        .visual .item.st4{
+            background-image: url(./images/n4.jpg);
+        }
+        .visual .item.st5{
+            background-image: url(./images/n5.jpg);
+        }
+        .visual .item .textWrap{
+            width: 1360px;
+            color: white;
+            padding-left: 20px;
+            
+        }
+        .visual .item .textWrap h3{
+            font-size: 80px;
+            font-family: "Noto Sans KR", sans-serif;
+        }
+        .visual .item .textWrap p{
+            font-size: 24px;
+            font-family: "Noto Sans KR", sans-serif;
+        }
+
+        .subTextWrap{
+            display: flex;
+            height: 200px;
+            justify-content: space-between;
+            margin: 50px 30px;
+            margin: 0 auto;
+            
+        }
+        .subTextWrap .leftText{
+            font-size: 44px;
+            font-family: "Noto Sans KR", sans-serif;
+            font-weight: 700;
+            line-height: 1.41;
+            letter-spacing: -2px;
+            text-indent: -2px;
+        }
+        
+        .clear:after{
+            content: "";
+            display: block;
+            clear:both;
+            width: 70px;
+            height: 5px;
+            background-color: #ffd44a;
+        }
+        .subTextWrap .rightText{
+            font-size: 18px;
+            font-family: "Noto Sans KR", sans-serif;
+            align-self: flex-end;
+            font-size: 18px;
+            line-height: 1.56;
+        }
+
+
+        .sec1st{
+            /* background-color: skyblue; */
+            height: 400px;
+            position: relative;
+        }
+        .sec1st .textWrap{
+            background-color: #ffd44a;;
+            width: 1000px;
+            height: 200px;
+            padding: 80px;
+
+        }
+        .sec1st .textWrap h3{
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 1.43;
+            letter-spacing: -1px;
+        }
+        .sec1st .img1{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 500px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <header class="hd">
+        <div class="container menuWrap">
+            <h1>logo</h1>
+            <nav class="gnb">
+                <ul>
+                    <li><a href="#">재단소개</a></li>
+                    <li><a href="#">재단활동</a></li>
+                    <li><a href="#">재단소식</a></li>
+                </ul>
+            </nav>
+            
+            
+        </div>
+    </header>
+    <div class="visual bg-sky">
+        
+            <ul class="slide">
+            
+                <li class="item st1">
+                    <div class="textWrap">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, laudantium?</p>
+                    </div>
+                </li>
+                <li class="item st2">
+                    <div class="textWrap">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, laudantium?</p>
+                    </div>
+                     test2
+                </li>
+                <li class="item st3">
+                    <div class="textWrap">
+                        <h3 class="mb20">Lorem, ipsum.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, laudantium?</p>
+                    </div>
+                    
+                </li>
+                <li class="item st4">
+                    <div class="textWrap">
+                        <h3 class="mb20">Lorem, ipsum.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, laudantium?</p>
+                    </div>
+                   
+                </li>
+                <li class="item st5">
+                    <div class="textWrap">
+                        <h3 class="mb20">Lorem, ipsum.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, laudantium?</p>
+                    </div>
+                    
+                     
+                </li>
+            </ul>
+        
+    </div>
+
+    <div class="container subTextWrap">
+        <div class="leftText">
+            <p class="clear">
+            문화를 만들고 인재를 키우고<br>
+            마음을 나눕니다
+            </p>
+            
+        </div>
+        <div class="rightText">
+            넷마블문화재단은 문화적 가치 확산을 통해 우리 사회의 미래 경쟁력을 높여 가고자<br>
+            다양한 공익 활동을 전개해 나가고 있습니다.
+        </div>
+    </div>
+    <div class="container banner ">
+        <div class="card ">
+            <!-- 384 *580 -->
+             <div class="imgWrap">
+                 <img src="./images/content01_01.jpg" alt="">
+             </div>
+            <div class="card-text">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, sit.</p>
+            </div>
+        </div>
+
+        <div class="card ">
+            <!-- 384 *580 -->
+             <div class="imgWrap">
+                 <img src="./images/content01_02.jpg" alt="">
+             </div>
+            <div class="card-text">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, sit.</p>
+            </div>
+        </div>
+
+        <div class="card ">
+            <!-- 384 *580 -->
+             <div class="imgWrap">
+                 <img src="./images/content01_03.jpg" alt="">
+             </div>
+            <div class="card-text">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, sit.</p>
+            </div>
+        </div>
+        
+    </div>
+    
+
+    <div style="padding: 40px 0;">
+        <div class="container sec1st">
+            <div class="textWrap">
+                <h3>우리는 문화적 가치를 확산하여 우리 사회의<br>미래 경쟁력을 높여갑니다</h3>
+                <br>
+                <p>주요목적</p>
+            </div>
+            <img src="./images/photo1.jpg" alt="" class="img1">
+            
+        </div>
+    </div>
+    
+    <script src="./jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.17/jquery.bxslider.min.js" integrity="sha512-LaBO0tZh1+6Ebk+EnHt/WsGM0UnmkCXfQ1rfhGmpa5MXUdslNuSSELBRcteHKz4k4ny+Op10Ax2fPoTNq+VcUg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(".slide").bxSlider({
+            auto:true
+        });
+    </script>
+</body>
+</html>
