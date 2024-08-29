@@ -110,3 +110,78 @@ body{
 .banner .card .card-text h3{
     margin-bottom: 10px;
 }
+
+
+/* swiper */
+
+.grayCon{
+    background-color: #f7f8f9;
+    height: 965px;
+    width: 100%;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px!important;
+
+    
+    
+  }
+  
+
+  swiper-slide img {
+    display: block;
+    
+    /* width: 360px;
+    height: 180px; */
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+  }
+  .swc{
+      display: flex;
+      flex-direction: column;
+      /* align-content: space-between; */
+      /* align-items: flex-start; */
+      justify-content: center;
+      width: 360px;
+      height: 466px;
+      
+      cursor: pointer;
+      transition: 0.4s;
+    }
+    .swc .imgbox{
+      align-items: flex-start;
+      width: 360px;
+      height: 180px;
+      align-self: flex-start;
+      
+    }
+    .swc .txtBox{
+        margin: 50px 0;
+        height: 150px;
+        width: 360px;
+        text-align: center;
+    }
+
+    
+    .swc:hover{
+        /* transform: translate(0,-20px)scale(1.5) rotate(360deg); */
+        transform: translate(-20px,-20px);
+        box-shadow: 20px 20px 20px rgba(0,0,0,0.2);
+        
+    }
