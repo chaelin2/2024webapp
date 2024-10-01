@@ -20,7 +20,7 @@ export default {};
    width: 100%;
    //    background-color: skyblue;
    border-bottom: 1px solid #888;
-
+    
    .menu {
       display: flex;
       a {
