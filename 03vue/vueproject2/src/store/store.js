@@ -37,9 +37,5 @@ export default createStore({
       const index1 = state.userData.findIndex((p) => p.userid === id);
       state.userData.splice(index1, 1);
     },
-
-    addList(state, lng, lat) {
-        
-    },
   },
 });
